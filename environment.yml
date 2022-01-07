@@ -48,7 +48,6 @@ dependencies:
   - podaacpy
   - pyoos
   - rasterio
-  - re
   - requests
   - retrying
   - s3fs
