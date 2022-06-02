@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cioosdashboards:
+    image: cioosdashboards
+    build:
+      context: .
+      dockerfile: ./Dockerfile
