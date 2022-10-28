@@ -1,0 +1,14 @@
+name: viz
+channels: 
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - erddapy
+  - hvplot
+  - dash
+  - datashader
+  - python-dotenv
+  - PyYAML

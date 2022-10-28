@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hachling.build"
+
+[project]
+name = "CIOOS Atlantic Visuzations"
+version = "0.0.1"
+authors = [
+    {name="Ryan Deschamps", email="ryan.deschamps@cioosatlantic.ca"},
+    {name="Priyal Chotwani", email="pr771000@dal.ca"},
+    {name="Rine Zaman", email=""},
+    {name="James Munroe", email=""}
+]
+description = "Data Visualization Dashboards for CIOOS Atlantic Datasets"
+readme = "README.md"
+requires-python = ">3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cioos-atlantic/docker-cioos-dashboards"
+"CIOOS Atlantic" = "https://cioosatlantic.ca"

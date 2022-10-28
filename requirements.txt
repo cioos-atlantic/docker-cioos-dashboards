@@ -1,0 +1,8 @@
+pandas
+numpy
+erddapy
+hvplot
+dash
+datashader
+python-dotenv
+PyYAML
