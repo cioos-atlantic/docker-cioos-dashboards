@@ -15,9 +15,10 @@ import logging
 
 
 app = dash.Dash(__name__)
-data = DataCollect('./viz/ids_sample.yaml')
+data = DataCollect('./ids_sample.yaml')
 data.collect()
 viz = Visualization(data)
+server = app.server
 
 app.layout = html.Article([viz.getHeader(), viz.getBody(), viz.getFooter()])
 

@@ -6,3 +6,4 @@ dash
 datashader
 python-dotenv
 PyYAML
+gunicorn
